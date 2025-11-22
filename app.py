@@ -4,7 +4,9 @@ import numpy as np
 from datetime import datetime
 
 # Load Haar Cascade
-face_cascade = cv2.CascadeClassifier("haarcascade_frontalface_default .xml")
+face_cascade = cv2.CascadeClassifier(
+    r"C:\Users\Shureim\OneDrive\Desktop\face_detection_app\haarcascade_frontalface_default .xml"
+)
 
 # App Title
 st.title("Face Detection using the Viola–Jones Algorithm")
